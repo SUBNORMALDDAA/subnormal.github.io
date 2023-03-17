@@ -1,0 +1,265 @@
+
+*{
+padding: 0;
+margin: 0;
+}
+body{
+background-image: url(https://us.123rf.com/450wm/verock42/verock421702/verock42170200032/79283114-cielo-nocturno-con-estrellas-fondo-del-espacio-ilustraci%C3%B3n-de-la-trama.jpg	);
+}
+
+header#cabeza{
+	background-color: black;
+	height: 750px;
+
+}
+#tituloylogo{
+	list-style: none;
+	float: left;
+	width: 375px;
+
+}
+.tituloA{
+	padding-top: 60px;
+	color: white;
+}
+.tituloA h4{
+	font-size: 35px;
+}
+.logo{
+	float: left;
+}
+#imagenes{
+	
+	height: 150px;
+
+}
+#imagenes ul{
+	display: block;
+	float: right;
+	margin-right: 0;
+	list-style: none;
+	padding-right: 13px;
+	padding-top: 25px;
+
+}
+#imagenes li{	
+	border-right: 3px solid white;
+	padding-right: 4px;
+	}
+
+
+#texto {
+    padding-right: 10px;
+    padding-bottom: 30px;
+ 
+}
+
+#texto li {
+   display: block;
+	float: right;
+	margin-right: 0;
+	list-style: none;
+	padding-right: 5px;
+}
+#texto a{
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+	font-family: arial,Helventica,sans-serif;
+}
+#texto li:hover a{
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	border-right-style: dashed;
+	border-radius: 5px;
+
+}
+#slinder{
+	padding-top: 20px;
+	padding-left: 150px;
+   width: 1200px;
+}
+/*aca empiueza el body*/
+#contenidoprincipal{
+	display: block;
+}
+
+#articulo{
+	color: white;
+	float: right;
+	width: 300px;
+	padding-right: 10px;
+	background-color: #1C1C1C;
+
+}
+#articulo h5{
+	text-align: center;
+	font-size: 45px;
+	height: 90px;
+	padding-top: 20px;
+}
+#articulo p{
+	font-size: 15px;
+
+}
+#infos{
+	padding-top: 25px;
+	text-align: center;
+}
+.lawea{
+	height: 400px;
+}
+#Nosotros p{
+	color: black;
+	font-size: 30px;
+}
+#Servicios{
+	background: black;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, white, black);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, white, black); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#Servicios p{
+	color: black;
+	font-size: 30px;
+}
+#contenido{
+	background-color: black;
+	float: left;
+   
+}
+#Nosotros{
+	background: black;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, white, black);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, white, black); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.infoNosotros{
+	
+}
+.textoB{
+	border-right: 1px solid white;
+	padding-right: 15px;
+	text-align: center;
+	display: block;
+	list-style: none;
+	float: left;
+	width: 200px;
+}
+.infoNosotros h5{
+	color: green;
+	font-size: 20px;
+}
+.infoNosotros p{
+	color: white;
+	font-size: 15px;
+}
+section{
+	height: 1400px;
+	padding-left: 200px;
+}
+
+.datoscontacto p{
+	padding: 0px;
+	margin: 10px;
+	width: 675px;
+}
+form{
+	margin-left: 60px;
+	margin-bottom: 10px;
+	width: 565px
+}
+label{
+	color: white;
+	font-family: arial,helvetica,sans-serif;
+	font-size: 15px;
+}
+input{
+	width: 480px;
+	height: 40px;
+	border: 4px outset #747474;
+	margin-top: 5px;
+	font-size: 14px;
+}
+input:hover{
+	cursor: pointer;
+	border-color: green;
+	width: 490px;
+	height: 50px;
+}
+textarea{
+	width: 480px;
+	height: 142px;
+	border: 2px solid #747474;
+	margin-top: 5px;
+	font-size: 14px;
+}
+#botom{
+	width: 100px;
+	background: white;
+	border-color: #747474;
+	border-radius: 5px;
+}
+#botom:hover{
+	background-color: black;
+	color: white;
+	border-color: green;
+	height: 40px;
+	width: 100px;
+}
+/*footer*/
+footer{
+	position: none;
+	height: 300px;
+	background-color: black;
+	display: block;
+	list-style: none;
+
+}
+footer h5{
+	text-align: left;
+	font-size: 40px;
+}
+footer p{
+	color: white;
+}
+.misdatos{
+	float: left;
+	text-align: center;
+	width: 250px;
+}
+.miscontactos{
+	padding-right: 50px;
+	width: 300px;
+	float: right;
+}
+
+.misdatos p{
+	font-size: 20px;
+	text-align: center;
+}
+.miscontactos p{
+	font-size: 20px;
+	float: right;
+	text-align: center;
+}
+#contenedordatos{
+	height: 200px;
+}
+.so{
+	background-color: #151515;
+	height: 30px;
+	padding-left: 400px;
+}
+.so p{
+   float: left;
+	text-align: center;
+	display: block;
+	margin-right: 0;
+	list-style: none;
+	padding-right: 20px;
+}
+
+.so:hover p{
+	cursor: pointer;
+}

@@ -1,0 +1,65 @@
+*{
+	box-sizing: border-box;
+
+}
+body{
+	margin:0;
+	font-family: Arial,Helvetica,sans-serif;
+	background-color: #d4ac0d ;  
+}
+.formulario{
+	width: 95%;
+	max-width: 500px;
+	margin: auto;
+	border-radius: 7px;
+	background: #fffc00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff, #f1c40f );  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffffff, #f1c40f ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.tituloFoom{
+	background:  white;
+	padding: 20px;
+	text-align: center;
+	font-size: 30px;
+	border-top-left-radius: 10px;
+	border-bottom: 2px dashed  #b7950b ;
+}
+.contenedor{
+	padding: 10px 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+input{
+	margin-bottom: 15px;
+	padding: 15px;
+	font-size: 15px;
+	border-radius: 5px;
+	border: 2px solid  #7d6608 ;
+}
+.input48{
+	width: 48%;
+}
+.input100{
+	width: 100%;
+}
+.BTEnviar{
+	color:   #1c1c1c  ;
+	font-size: 20px;
+	border: 1px solid  black;
+	margin: auto;
+}
+.BTEnviar:hover{
+	background: #fffc00;
+	border: 2px dashed black;
+	color:  #b7950b ;
+}
+input:hover{
+	transform: translate(3px);
+	border: crimson;
+	cursor: pointer;
+	transition-duration: 0.30s;
+}
